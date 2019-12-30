@@ -1,0 +1,8 @@
+.user-list__user {
+  display: flex;
+  width: 100%;
+}
+
+.user-list__column {
+  flex: 1;
+}

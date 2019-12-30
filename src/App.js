@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import SignUpForm from './components/Form/Examples/SignUpForm';
+import Todo from './components/Form/Examples/Todo';
+import UserList from './components/Navigation/Examples/UserList/UserList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SignUpForm onSubmit={() => alert('submit')} initialValues={{}}>
+        <div>What's up?</div>
+        <button type="submit">Submit</button>
+      </SignUpForm>
+      <Todo />
+      <UserList />
     </div>
   );
 }
