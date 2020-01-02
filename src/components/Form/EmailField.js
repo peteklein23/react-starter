@@ -1,12 +1,11 @@
 import React from 'react';
-import { Field, ErrorMessage } from 'formik';
 
-const EmailField = ({ name, children, ...props }) => {
+import FormField from './FormField';
+
+const EmailField = ({ ...props }) => {
   return (
-    <div {...props}>
-      <label htmlFor={name}>{children}</label>
-      <Field name={name} type="email" />
-      <ErrorMessage name={name} />
+    <div className="email-field">
+      <FormField type="email" {...props} />
     </div>
   );
 };

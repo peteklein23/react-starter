@@ -1,16 +1,16 @@
 import React from 'react';
+
 import './App.css';
-import SignUpForm from './components/Form/Examples/SignUpForm';
-import Todo from './components/Form/Examples/Todo';
-import UserList from './components/Navigation/Examples/UserList/UserList';
+import SignUpUserForm from './components/Examples/UserForm/SignUpUserForm';
+import AdvancedSearch from './components/Examples/AdvancedSearch/AdvancedSearch';
+import Todo from './components/Examples/Todo';
+import UserList from './components/Examples/UserList';
 
 function App() {
   return (
-    <div className="App">
-      <SignUpForm onSubmit={() => alert('submit')} initialValues={{}}>
-        <div>What's up?</div>
-        <button type="submit">Submit</button>
-      </SignUpForm>
+    <div className="app">
+      <AdvancedSearch />
+      <SignUpUserForm />
       <Todo />
       <UserList />
     </div>

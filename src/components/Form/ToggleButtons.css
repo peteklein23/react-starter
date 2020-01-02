@@ -1,0 +1,5 @@
+.toggle-buttons {
+  align-items: stretch;
+  display: flex;
+  position: relative;
+}

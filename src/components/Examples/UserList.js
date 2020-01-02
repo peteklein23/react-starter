@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 import './UserList.css';
-import Pagination from '../../Pagination';
-import PageSize from '../../PageSize';
+import Pagination from '../Pagination/Pagination';
+import PageSize from '../Pagination/PageSize';
 
 const pageSizes = [10, 20, 50];
 
