@@ -7,12 +7,18 @@ import CheckboxField from '../../Form/CheckboxField';
 import ToggleButtons from '../../Form/ToggleButtons';
 import ToggleButton from '../../Form/ToggleButton';
 import ButtonComponent from '../../Form/ButtonComponent';
+import DateField from '../../Form/DateField';
+import DateTimeField from '../../Form/DateTimeField';
+import TimeField from '../../Form/TimeField';
 
 const initialValues = {
   column: 'name',
   search: '',
   test: false,
-  showDeletedContacts: 'hide'
+  showDeletedContacts: 'hide',
+  lastContactDate: '',
+  testTime: '',
+  testDateTime: ''
 };
 
 const AdvancedSearch = () => {
@@ -38,6 +44,10 @@ const AdvancedSearch = () => {
         <ToggleButton label="Show" value="show" />
         <ToggleButton label="Hide" value="hide" />
       </ToggleButtons>
+
+      <DateField name="lastContactDate" label="Last Contact Date" />
+      <DateTimeField name="testDateTime" label="Test Date Time Field" />
+      <TimeField name="testTime" label="Test Time Field" />
 
       <ButtonComponent type="submit">Search</ButtonComponent>
       <ButtonComponent type="reset">Reset All Filters</ButtonComponent>
