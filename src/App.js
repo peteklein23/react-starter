@@ -1,10 +1,10 @@
 import React from 'react';
 
 import './App.css';
-import SignUpUserForm from './components/Examples/UserForm/SignUpUserForm';
-import AdvancedSearch from './components/Examples/AdvancedSearch/AdvancedSearch';
-import Todo from './components/Examples/Todo';
-import UserList from './components/Examples/UserList';
+import SignUpUserForm from './components/Form/Formik/Examples/UserForm/SignUpUserForm';
+import AdvancedSearch from './components/Form/Formik/Examples/AdvancedSearch/AdvancedSearch';
+import Todo from './components/Form/Formik/Examples/Todo';
+import UserList from './components/Pagination/Examples/UserList';
 
 function App() {
   return (

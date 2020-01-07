@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import PageLink from './PageLink';
-import { range } from '../arrayUtils';
+import { range } from '../../Utils/arrayUtils';
 
 // TODO: previous and next links
 

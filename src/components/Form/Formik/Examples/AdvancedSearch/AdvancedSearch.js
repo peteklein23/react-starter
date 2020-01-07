@@ -1,15 +1,15 @@
 import React from 'react';
 
-import FormComponent from '../../Form/FormComponent';
-import SelectField from '../../Form/SelectField';
-import TextField from '../../Form/TextField';
-import CheckboxField from '../../Form/CheckboxField';
-import ToggleButtons from '../../Form/ToggleButtons';
-import ToggleButton from '../../Form/ToggleButton';
-import ButtonComponent from '../../Form/ButtonComponent';
-import DateField from '../../Form/DateField';
-import DateTimeField from '../../Form/DateTimeField';
-import TimeField from '../../Form/TimeField';
+import FormComponent from '../../FormComponent';
+import SelectField from '../../SelectField';
+import TextField from '../../TextField';
+import CheckboxField from '../../CheckboxField';
+import ToggleButtons from '../../ToggleButtons';
+import ToggleButton from '../../ToggleButton';
+import ButtonComponent from '../../../../Shared/ButtonComponent';
+import DateField from '../../DateField';
+import DateTimeField from '../../DateTimeField';
+import TimeField from '../../TimeField';
 
 const initialValues = {
   column: 'name',

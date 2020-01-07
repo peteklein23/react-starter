@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import * as Yup from 'yup';
 
-import FormComponent from '../../Form/FormComponent';
-import TextField from '../../Form/TextField';
-import TextAreaField from '../../Form/TextAreaField';
-import EmailField from '../../Form/EmailField';
-import SelectField from '../../Form/SelectField';
-import ButtonComponent from '../../Form/ButtonComponent';
+import FormComponent from '../../FormComponent';
+import TextField from '../../TextField';
+import TextAreaField from '../../TextAreaField';
+import EmailField from '../../EmailField';
+import SelectField from '../../SelectField';
+import ButtonComponent from '../../../../Shared/ButtonComponent';
 
 const UserForm = ({ initialValues, onSubmit }) => {
   const validationSchema = Yup.object({
